@@ -1,1 +1,54 @@
+# print("Uday Baphna")
+# print(25+89)
+# print("I can print string in all 3 typer of inverted coma's 1,2,3")
+# print(type("I also can print type like Boolean,string,int,float"),type(99))
 
+#print sum of 2 numbers
+# a=5
+# b=10.67
+# print(a+b)
+
+# so we can't add string with int/float but int and float can be added
+
+# a="we"
+# b=8
+# r=a+str(b)
+# print(r)
+# so if you want to print a string and a int togeter without space we need to force int to be string in a new string and then print it but if we can put space then it is ok we dont need a new variable
+
+# interger division //
+# it means it will ivide but ans will be int will display as a float
+
+# Doubt 1
+# import math
+# a=5
+# b=8.0
+# v=a//b
+# # print(type(v))
+# # print(v)
+# print(math.ceil(v))
+# h=9.89
+# print(math.ceil(h)) 
+
+# a=5
+# b=-56
+# v=a//b
+# print(v)
+
+# remainder gets negative if denominater is negative
+# import math
+# a=5
+# b=8.0
+# v=a//b
+# print(math.ceil(v))
+
+# floor is oppsite of ceil
+
+# a= input("name:")
+# print(a)
+# for inputing string it is direct but for int and float you have to specify before input
+
+# name=input("name:")
+# age=int(input("age:"))
+
+# print("My name is ",name,"I am ",age,"year old")
