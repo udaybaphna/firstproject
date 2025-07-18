@@ -1,0 +1,140 @@
+# tup=("C","D","A","A","B","B","A")
+# print(tup.count("A"))
+# list1=["C","D","A","A","B","B","A"]
+# list1.sort()
+# print(list1)
+
+#dic works in pair
+# "key": value
+
+# dict={
+#     "name":"UDAY",
+#     "cgpa":6.58,
+#     "marks":[25,26,30],
+# }
+# print(dict["name"])
+# we can assign new value to key
+# we  also can have nested dict
+#dic method
+#.keys (all keys)
+#.values(all valus)
+#.items(all pairs in ())
+#.get("key")
+#sets in set there is no duplicate value
+#  set.add(el)
+# set.remove(el)
+#set.clear()
+#set.pop()
+#set.union(set2)
+#set.intersection(set2)
+
+# dic={
+#     "table":("a piece of furniture","list of facts and figures"),
+#     "cat":"a small animal"
+# }
+# print(dic)
+
+# sort={"python","java","C++","python","javascript","java","python","java","C++","C"}
+# print(len(sort))
+
+# dic={}
+# dic.update({"phy":99})
+# print(dic)
+
+# set={(9,"int"),(9.0,"float")}
+# print(set)
+
+#loops
+#while and for
+# i=0
+# while i<=5:
+#     print("hello")
+#     i=i+1
+
+# i=1
+# while i<=15:
+#     print(i*5)
+#     i=i+1
+
+# i=100
+# while i>=0:
+#     print(i)
+#     i=i-1
+
+# i=1
+# while i<=10:
+#     print(i**2)
+#     i=i+1
+
+# num=[1,4,9,16,25,36,49,64,81,100]
+# i=0
+# while i<=len(num)-1:
+#     print(num[i])
+#     i=i+1
+
+# num=(1,4,9,16,25,36,49,64,81,100)
+# i=0
+# while i<=len(num)-1:
+#     if(num[i]==36):
+#         print(i)
+#     i+=1
+
+# break(terminate)
+# continue terminate only current iteration
+
+# list = [1,2,3]
+# for val in list:
+#     print(val)
+
+#we can use else in for
+
+# num=[1,4,9,16,25,36,49,64,81,100]
+# for i in num:
+#     if(i==36):
+#         print("found on",i)
+
+#range
+# seq=range(5)
+# for i in seq:
+#     print(i)
+# we can also add start and step size
+
+
+# y=int(input("n:"))
+# # for i in range(y,100,y):
+# #     print(i)
+# for i in range(1,11):
+#     print(y*i)
+
+#pass we have to done some work in loop but if not use pass
+# i=0
+# n=int(input("n is :"))
+# while i<=n:
+#     if i==n:
+#         print((n*(n+1))/2)
+#     i+=1
+
+#     i=0
+# sum=0
+# n=int(input("n is :"))
+# while i<=n:
+#     sum += i
+#     i+=1
+# print(sum)
+
+
+# n=5
+# fact=1
+
+# for i in range(1,n+1):
+#     fact*=i
+
+# print (fact)
+
+# i=int(input("i is :"))
+# t=1
+# for z in range(1,i):
+#     print(z)
+#     # print(t*z)
+#     t+=1
+
