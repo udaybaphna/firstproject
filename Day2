@@ -1,0 +1,234 @@
+#q1
+# age=int(input("age is"))
+# if (age>=18):
+#     print("You can vote")
+# elif(12<=age<=18):
+#     print("you can watch movies")
+# else:
+#     print("Do nothing")
+
+#q2 traffic light
+
+# light=input("light is")
+# if(light=="green"):
+#     print("go")
+# elif(light=="yellow"):
+#     print("look out")
+# elif(light=="Red"):
+#     print("stop")
+# else:
+#     print("light is broken")
+
+#q3
+# A=int(input("A is:"))
+# G=input("G is: ")
+# if(A==5 and G=="M"):
+#     print
+
+# single line conditional statement
+# food=input("food is:")
+# eat="yes"if food=="Dosa" else "no"
+# print(eat)
+
+# str1 if condition else str2
+
+# nums=[1,2,3,4,5]
+# for num in nums:
+#     if num==3:
+#         break
+# else:
+#     print("loop completed")
+
+# var = (fase_val,True_val)[condition]
+
+# age=int(input("age:"))
+# vote=("yes","no") [age<=18]
+# print(vote)
+
+#assigment operator
+
+# num=10
+# num**=2
+# print(num)
+
+#logical operators
+
+# print(not False)
+# print(not True)
+
+# val1=True
+# val2=False
+# print("and operator",val1 or val2)
+
+ # casting and converstion
+
+# a="2"
+# b=4.5
+# sum=a+b
+# print(sum)
+#casting is auto but conversion is forced
+
+ #if we are taking any input it is a string only
+
+#if you want it as int or float you have to type cast
+
+#First practise Questions
+
+# num1=int(input("Enter your first number:"))
+# num2=int(input("Enter your second number:"))
+# sum=num1+num2
+# print(sum)
+
+#Second Question
+
+# side=float(input("enter side of a square:"))
+# area= side*4
+# print("the area of square is",area)
+
+#question 3
+# num1=float(input("first number is "))
+# num2=float(input("second number is "))
+# avg=((num1+num2)/2)
+
+# print (avg)
+
+#question 4
+# a=int(input("first number is:"))
+# b=int(input("second number is :"))
+# ans=("true","false")[a>=b]
+# print(ans)
+
+#if we want to print on second line use \n and if you want only tab space use \t
+#we also can concatinate and find length by using len() this is a function
+
+#half diamond
+# a="*"
+# print("",a,"\n",a*2,"\n",a*3,"\n",a*2,"\n",a)
+
+#full diamond
+# a="*"
+# b=" "
+# print(b*3,a)
+# print(b*2,a*3)
+# print(b,a*5)
+# print(b*2,a*3)
+# print(b*3,a)
+# print(" ",a)
+# print("",a*3)
+# print(a*5)
+
+#indexing
+
+# str1="apna collage"
+# print(str1[5])
+#we can acces but we can't change the indexing
+
+#slicing
+# str2="apple is good"
+# print(str2[-7:-3])
+
+#so last no. is not included in slicing
+# string function
+# .endsWith(<var>) check and reture true or false
+
+# str3= "hi my name is Uday Baphna" 
+# r=str3.endswith("na")
+# print(r)
+# x=str3.capitalize()
+# print(x)
+
+# print(str3.replace("a","g"))
+# print(str3.find("g"))
+# print(str3.count("a")) 
+
+# a=input("Enter your name :")
+# print(len(a))
+
+# str ="Hi, $ my $ name $is $$$$ uday$b$a$p$h$n$a"
+# print(str.count("$"))
+
+#if check every time but elif only check when if is false
+
+# marks=int(input("marks are:"))
+# if (marks>=90):
+#     print("A")
+# elif(80<=marks<90):
+#     print("B")
+# elif(70<=marks<80):
+#     print("C")
+ 
+
+# create a program to take a person name and his age as input 
+# after that check if person is tenager(12 to 18) or old(18+) or child(below 12)
+# if he is tenager print his name length. 
+# if he is child ask for his passion and print it
+# if he is old ask for his job and print it
+
+# name=input("Your name:")
+# age=int(input("enter your age:"))
+# print("Welcome",name)
+# if(12<=age<=18):
+#     print(len(name))
+# elif(age<12 and age>0):
+#     passion=input("your passion is ")
+#     print(passion)
+# elif(age>18):
+#     job=input("your job title is:")
+#     print(job)
+# else:
+#     print("Age cant be negative")
+
+# marks=[1,5,6,8,9,28,6]
+# print(marks)
+# # print(type(marks))
+
+# # strings are immutable and list is mutable
+
+# marks[2]="arjun"
+# print(marks)
+# we can do slicing in list also
+
+#list have differnent methods
+# append(add a element in last)
+# sort(sort in asc)
+# reverse(orginal list reverse)
+# insert(idx,element)
+# remove 
+# pop (replace element)
+
+# tuple it is in ()
+#  tuple is immutable
+
+
+# list1=("hi","muname",25)
+# print(list1[0][1])
+
+# tuple methods
+#index find the element
+#count count the occurance
+
+# M1=input("enter your fav movie")
+# M2=input("enter your second fav movie")
+# M3=input("enter your 3rd fav mov")
+# list_of_movies=[M1,M2,M3]
+# print(list_of_movies)
+
+# a=[]
+# a.append(input("enter"))
+# a.append(input("enter"))
+# a.append(input("enter"))
+# a.append(input("enter"))
+# a.append(input("enter"))
+# # if(a[0]==a[-1]and a[1]==a[-2]):
+# #     print("it is a palindrom")
+# # else:
+# #     print("no it is not")
+# y=a.copy()
+# print(y)
+# a.reverse()
+
+# if (a==y):
+#     print("yes")
+# else:
+#     print("no")
+
