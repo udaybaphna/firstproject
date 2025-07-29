@@ -1,0 +1,81 @@
+#practice question 1
+# n=0
+# while n<=50:
+#     print(n)
+#     n+=1
+
+#using for loop
+# for n in range(1,100):
+#     print(n)
+
+#question 2
+# n=1
+# sum=0
+# while n<=10:
+#     sum+=n
+#     n+=1
+# print(sum)
+
+#using for loop
+# sum=0
+# for n in range(1,12):
+#     sum+=n
+# print(sum)
+
+#question 3
+# n=1
+# fac=1
+# while n<=5:
+#     fac*=n
+#     n+=1
+# print(fac)
+
+#using for loop
+# fac=1
+# for n in range(1,6):
+#     fac*=n
+# print(fac)
+
+#neet code questions
+# nums=[1,2,3,3]
+# s=set(nums)
+# if len(nums)==len(s):
+#     print("False")
+# else:
+#     print("True")
+
+# s="car"
+# t="cra"
+# s=sorted(s)
+# t=sorted(t)
+# print(s)
+# if s==t:
+#     print("yes")
+# else:
+#     print("no")
+
+# # nums=[3,4,5,6]
+# # target=[0,1]
+# k=0
+# strs = ["act","pots","tops","cat","stop","hat"]
+# # for i in strs:
+# #     i=sorted(str(i))
+# #     strs[k]=i
+# #     k=+1
+# # print(strs[k])
+    
+    
+# # for i in strs:
+# #     print(i)
+    
+# #Output: [["hat"],["act", "cat"],["stop", "pots", "tops"]]
+
+# for i in strs:
+#     # print(i)
+#     z=sorted(i)
+#     # print(z)
+#     strs[k]=z
+#     k=k+1
+
+# for i in strs:
+#     print(i)
