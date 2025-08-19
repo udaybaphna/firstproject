@@ -1,0 +1,60 @@
+# for i in range(5):
+#     for col in range(2*i+1):
+#         if col%2==0:
+#             print(i+1,end=(""))
+#         else:
+#             print("*",end=(""))
+#     print("")
+
+# for i in range(7):
+#     for z in range(7-i):
+#         if  i ==0 or i== 6:
+#             print ("*",end=(""))
+#         else:
+#             if z ==0 or z==6-i:
+#                 print ("*",end=(""))
+#             else:
+#                 print(" ",end=(""))
+#     print(" ")
+
+# for i in range(1,10):
+#     for z in range(i+1):
+#         print(chr(65+z),end=(""))
+    
+#     for alphabate in range(10-i):
+#         print(chr(65+alphabate),end=(""))
+#     print("")
+
+# def pattern(n):
+#     for i in range(1, n+1):
+#         # forward
+#         for j in range(1, i+1):
+#             print(chr(64+j), end="")
+#         # backward
+#         for j in range(i-1, 0, -1):
+#             print(chr(64+j), end="")
+#         print()
+
+# pattern(4)
+
+# a=5
+# b=10
+# print(a^b)
+
+# a=5
+# print(a>>2)
+# >> is a a right shift bit wise opeertaor it shift every bit towards right and << vise versa
+# if we right shift the number it will divide by 2 ki power of how much we are right shifting 
+# same as for left shift also
+# and if we shift it by negative number it will show garbage value
+
+#pre and post increment and decrement 
+#++a is pre and a++ is post increment and if we use - other then + it will become decrement 
+# it only happen in  C++
+
+#variable scoping
+# local and global
+
+
+# abb se questions only
+
