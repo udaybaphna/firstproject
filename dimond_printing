@@ -68,3 +68,6 @@
 #     for j in range(i,6):
 #         print("*",end=" ")
 #     print(" ")
+
+for full dimand there is a trick for if and else 
+if you want to print in middle go with n-i and n+i
