@@ -1,0 +1,111 @@
+# arr = [2, 5, 6, 1, 4]
+# largest = arr[0]  # assume first element is largest
+# for num in arr:
+#     if num > largest:
+#         largest = num
+# print("Largest number:", largest)
+
+# for i in range(5,1,-1):
+#     for z in range(i):
+#         print(z,end=(""))
+#     print(" ")
+
+# for i in range(6):
+#     for z in range(i):
+#         print(i,end=(" "))
+#     print(" ")
+
+# for i in range(5):
+#     for z in range(9):
+#         if 5-i<z<5+i:
+#             print(" ",end=(" "))
+#         else:
+#             print("*",end=(" "))
+#     print(" ")
+        
+# n=int(input("n:"))
+# for i in range(n):
+#     for z in range(2*n-1):
+#         if z <i:
+#             print(" ",end=(""))
+#         elif z<n-i:
+#             print("*",end=(""))
+#     print(" ")
+
+# for i in range(5):
+#     for z in range(i):
+#         print("*",end=(""))
+#     print(" ")
+# for i in range(5):
+#     for z in range(5-i):
+#         print("*",end=(""))
+#     print(" ")
+
+# n = 5
+# # upper half
+# for i in range(1, n+1):
+#     print("*" * i)
+
+# # lower half
+# for i in range(n-1, 0, -1):
+#     print("*" * i)
+
+# for i in range(10):
+#     for z in range(5):
+
+
+# for i in range(5):
+#     for z in range(i):
+#         if (i+z)%2!=0:
+#             print(1,end=(""))
+#         else:
+#             print(0,end=(""))
+#     print(" ")
+
+# for i in range(1,5):
+#     for z in range(1,i+1):
+#         print(z,end=(""))
+#     print(" "*(2*(5-i)),end=(""))
+#     for z in range(i,0,-1):
+#         print(z,end=(""))
+#     print("")
+
+# n=1
+# for i in range(6):
+    
+#     for z in range(i):
+#         print(n,end=(""))
+#         n+=1
+        
+#     print(" ")
+# n=36
+# z=[]
+# for i in range(1,n+1):
+#     if n%i==0:
+#         z.append(i)
+# print(z)    
+
+# N=371
+# z=N
+# a=N%10
+# N=N//10
+# b=N%10
+# N=N//10
+# c=N%10
+
+# if a**3+b**3+c**3==z:
+#     print("True")
+
+# N="12345"
+
+# print("".join(reversed(N)))
+
+# reverse a number
+# a=123456789
+# z=0
+# while a>0:
+#     d=a%10
+#     z=z*10+d
+#     a//=10
+
+# print(z)
